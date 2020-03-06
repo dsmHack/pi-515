@@ -70,7 +70,7 @@ main:
 contact:
   title: Thanks for visiting
   comment: Please visit again
-  headImage: /img/coffee.png
+  headImage: /img/logo.png
   info:
     email: thisemail@something.com
     phone: 111-111-1111
