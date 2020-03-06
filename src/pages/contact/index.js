@@ -44,9 +44,9 @@ export default class Index extends React.Component {
             className="full-width-image margin-top-0"
             style={{
               backgroundImage: `url(${
-                !!this.props.data.markdownRemark.frontmatter.image.childImageSharp ? 
-                this.props.data.markdownRemark.frontmatter.image.childImageSharp.fluid.src : 
-                this.props.data.markdownRemark.frontmatter.image
+                !!this.props.data.markdownRemark.frontmatter.contact.headImage.childImageSharp ? 
+                this.props.data.markdownRemark.frontmatter.contact.headImage.childImageSharp.fluid.src : 
+                this.props.data.markdownRemark.frontmatter.contact.headImage
               })`,
               backgroundPosition: `top left`,
               backgroundAttachment: `fixed`,
@@ -73,7 +73,7 @@ export default class Index extends React.Component {
                   padding: '0.25em',
                 }}
               >
-                {this.props.data.title}
+                {this.props.data.markdownRemark.frontmatter.contact.title}
               </h1>
               <h3
                 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -86,7 +86,7 @@ export default class Index extends React.Component {
                   padding: '0.25em',
                 }}
               >
-                {this.props.data.subheading}
+                {this.props.data.markdownRemark.frontmatter.contact.comment}
               </h3>
             </div>
           </div>
@@ -171,12 +171,14 @@ export const pageQuery = graphql`
   query index {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
-        subheading
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+        contact{
+          title
+          comment
+          headImage {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
@@ -184,4 +186,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
