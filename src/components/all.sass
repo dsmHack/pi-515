@@ -27,6 +27,28 @@ $black: #0F2106
     margin-bottom: 1.5rem
     margin-top: 0
 
+.nested.dropdown 
+  &:hover > .dropdown-menu 
+    display: block
+  
+  .dropdown-menu 
+    top: -15px
+    margin-left: 100%
+  
+  .dropdown-trigger 
+    button::after 
+      content: '⦠'
+    
+    button 
+      padding: 0px 0px
+      border: 0px
+      font-size: 14px
+      font-weight: 400
+      height: 2em
+    
+
+
+
 // Helper Classes
 .full-width-image-container
   width: 100vw
@@ -55,7 +77,7 @@ $black: #0F2106
     padding: 12px 16px 10px
     font-size: 18px
     font-size: 1rem
-    line-height: 1.25
+    line-height: 1.0
     background-color: #fff
     border-radius: .25rem
     text-decoration: none
