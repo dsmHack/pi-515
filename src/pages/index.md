@@ -1,50 +1,29 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Building diversity in STEM
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Building diversity in STEM
+subheading: Education and opportunities for underserved youth
 mainpitch:
-  title: Why Kaldi
+  title: Why Pi515
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    We go further than just the technical skills that our students deserve. Our students receive supplementary skills in college prep, financial literacy, and entrepreneurship. These vital skills are taught by our program to amplify our impact and maximize success.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Giving opportunities that inspire young people to explore, discover, and create. By using the talent that we see in underrepresented students, we are able to make a real impact in their lives and watch as they go on to shape their communities. By starting at the source, we can organically grow a culture of ambition and success. The triumphs of our students go on to be reflected in making the technology world more diverse and bringing the voices that are so often unheard to the forefront.
 intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        Pi515 successfully creates a safe space where students from a wide array of backgrounds, socio-economic and social statuses, and nationalities come together to learn from our program and each other. Individually, they learn to build skills and self-confidence. Together, they learn to build community – and the community is part of what keeps them invested in being part of the program. We provide the program at no cost to their families and give them a laptop when they graduate.
     - image: /img/coffee-gear.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        We provide equipment directly where it is needed at the time that it makes the most impact. Professionals in tech come in to teach the high school level who in turn give back immediately by mentoring their younger peers. With small classes, we give the one-on-one attention that these students need. We hire high school students to give them their first opportunity in industry, allowing them to get their foot in the door and build a strong resume as soon as possible.
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Without programs like this, we lack the first step to get underserved individuals started in technology. By providing a base, we empower students to forge their own path and succeed on their own terms. We believe that when youth have the power to control their own education, they are able to design a happy future for themselves, and when we have happy and successful individuals, we foster a strong and vibrant community. Our students inspire those around them with their stories, their heart, and their expertise.
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        America has a systemic lack of diversity in STEM-related fields, and Iowa has a workforce shortage for STEM-related jobs. Des Moines has a growing population of immigrant and refugee families with parents who have limited access to education. Their children need to be guided towards a future that can help lift their families out of poverty and set them up for ongoing success. Pi515 is taking on the inequity in STEM-related careers by directly addressing the pipeline. Each year, we embrace 100 students, particularly girls, from diverse backgrounds. We introduce them to teachers and companies with employees who are in STEM, providing role models that inspire them. Over 80% of our students are the first in their families to finish high school and go on to college
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -67,4 +46,13 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+contact:
+  title: Thanks for visiting
+  comment: Please visit again
+  headImage: /img/logo.png
+  info:
+    email: thisemail@something.com
+    phone: 111-111-1111
+    address: Middle Of NoWhere
+    subImage: /img/home-jumbotron.jpg
 ---
