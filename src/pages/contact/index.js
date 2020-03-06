@@ -9,18 +9,26 @@ function encode(data) {
 }
 
 export default class Index extends React.Component {
+  facebook = 'https://www.facebook.com/Pi515/';
+  twitter = 'https://twitter.com/LOVEPI515';
+  phoneNumber = '515-344-4326';
+  address = '4300 Beaver Avenue Des Moines, IA 50310';
+  email = 'tech@pi515.org';
+
+
+
   constructor(props) {
-    super(props)
+    super(props);
     this.state = { isValidated: false }
   }
 
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value })
-  }
+  };
 
   handleSubmit = e => {
-    e.preventDefault()
-    const form = e.target
+    e.preventDefault();
+    const form = e.target;
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -31,14 +39,30 @@ export default class Index extends React.Component {
     })
       .then(() => navigate(form.getAttribute('action')))
       .catch(error => alert(error))
-  }
+  };
 
   render() {
     return (
       <Layout>
         <section className="section">
-          <div className="container">
-            <div className="content">
+          <div className="container horizontalColumns">
+            <address className="content column">
+              <h3>Pursuit of Innovation</h3>
+              <div>Phone number: <a href={'tel:' + this.phoneNumber}>{this.phoneNumber}</a></div>
+              <div>Email: <a href={'mailto:' + this.email}>{this.email}</a></div>
+              <div>Address: <a href={'geo:' + this.address}>4300 Beaver Avenue Des Moines, IA 50310</a></div>
+              <div>Hours: 9am - 5pm</div>
+              <div>
+                <div><a href={this.facebook}>Facebook</a></div>
+                <div><a href={this.twitter}>Twitter</a></div>
+              </div>
+              <iframe
+                title="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.7812477219422!2d-93.68107734840824!3d41.638859579140046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee9c14426aaaab%3A0x20398f4414d00158!2sPursuit%20of%20Innovation!5e0!3m2!1sen!2sus!4v1583522683319!5m2!1sen!2sus"
+                width="600" height="450" frameBorder="0" style={{'border': '0px'}}
+                allowFullScreen=""></iframe>
+            </address>
+            <div className="content column">
               <h1>Contact</h1>
               <form
                 name="contact"
