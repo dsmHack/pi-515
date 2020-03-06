@@ -13,13 +13,19 @@ module.exports = {
       options: {
         path: `${__dirname}/static/img`,
         name: 'uploads',
+        useResolveUrlLoader: {
+          options: {
+            sourceMap: true,
+          },
+        },
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',      },
+        name: 'pages',
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
