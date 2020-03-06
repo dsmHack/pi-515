@@ -124,8 +124,25 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
-                <div className="field">
-                  <button className="button is-link" type="submit">
+                <div>
+                  <label className="label" htmlFor={'message'}>
+                    Contact Types
+                  </label>
+                  <div class="field">
+                    <div class="control">
+                      <div class="select">
+                        <select>
+                          <option disabled hidden selected>Select Option</option>
+                          <option>Students</option>
+                          <option>Donators</option>
+                          <option>Volunteers</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="field" style={{marginTop:'15px'}}>
+                  <button className="button is-link" type=" submit">
                     Send
                   </button>
                 </div>
@@ -137,3 +154,5 @@ export default class Index extends React.Component {
     )
   }
 }
+
+
