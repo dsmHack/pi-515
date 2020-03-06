@@ -23,7 +23,7 @@ $ yarn
 
 ### `build`
 
-Build the static files into the `public` folder, turns lambda functions into a deployable form. 
+Build the static files into the `public` folder
 
 #### Usage
 
