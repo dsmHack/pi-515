@@ -24,3 +24,26 @@ intro:
     - image: /img/meeting-space.png
       text: >
         America has a systemic lack of diversity in STEM-related fields. Iowa has a workforce shortage for STEM-related jobs. Des Moines has a growing population of immigrant and refugee families with parents who have limited access to education. Their children need to be guided towards a future that can help lift their families out of poverty and set them up for ongoing success. Pi515 is taking on the inequity in STEM-related careers by directly addressing the pipeline. Each year, we embrace 100 students, particularly girls, from diverse backgrounds. We introduce them to teachers and companies with employees who are in STEM, providing role models that inspire them. Over 80% of our students are the first in their families to finish high school and go on to college
+  heading: What we offer
+  description: >
+    Kaldi is the ultimate spot for coffee lovers who want to learn about their
+    java’s origin and support the farmers that grew it. We take coffee
+    production, roasting and brewing seriously and we’re glad to pass that
+    knowledge to anyone. This is an edit via identity...
+main:
+  heading: Great coffee with no compromises
+  description: >
+    We hold our coffee to the highest standards from the shrub to the cup.
+    That’s why we’re meticulous and transparent about each step of the coffee’s
+    journey. We personally visit each farm to make sure the conditions are
+    optimal for the plants, farmers and the local environment.
+  image1:
+    alt: A close-up of a paper filter filled with ground coffee
+    image: /img/products-grid3.jpg
+  image2:
+    alt: A green cup of a coffee on a wooden table
+    image: /img/products-grid2.jpg
+  image3:
+    alt: Coffee beans
+    image: /img/products-grid1.jpg
+---
