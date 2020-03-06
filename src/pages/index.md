@@ -67,4 +67,13 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+contact:
+  title: Thanks for visiting
+  comment: Please visit again
+  headImage: /img/logo.png
+  info:
+    email: thisemail@something.com
+    phone: 111-111-1111
+    address: Middle Of NoWhere
+    subImage: /img/home-jumbotron.jpg
 ---
