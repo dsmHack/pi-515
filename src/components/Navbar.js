@@ -35,7 +35,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar is-fixed-top is-transparent"
         role="navigation"
         aria-label="main-navigation"
       >
@@ -63,18 +63,27 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/products">
-                Products
+              <Link className="navbar-dropdown" to="/get-involved">
+                Get Involved
+              </Link>
+              <Link className="navbar-item" to="/get-involved/partners">
+                Partners
+              </Link>
+              <Link className="navbar-item" to="/get-involved/programs">
+                Programs
+              </Link>
+              <Link className="navbar-item" to="/get-involved/volunteer">
+                Volunteer
               </Link>
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
               <Link className="navbar-item" to="/contact">
-                Contact
+                Contact Us
               </Link>
               <Link className="navbar-item" to="/contact/examples">
                 Form Examples
-              </Link>
+              </Link>     
             </div>
             <div className="navbar-end has-text-centered">
               <a
