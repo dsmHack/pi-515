@@ -2,24 +2,37 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
+// TODO: A lot of this file is a hack to workaround issues with the original template we used
+function FeatureTitle({item}) {
+  if(item && item.title) {
+    return <h3 class="has-text-centered">{item.title}</h3>
+  } else {
+    return null
+  }
+}
+
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
-      <div key={item.text} className="column is-6">
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block',
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
+        <div key={item.text} className="column is-6">
+          <section className="section">
+            <FeatureTitle item={item}/>
+            <div className="has-text-centered">
+              <div
+                style={{
+                  width: '100%',
+                  display: 'inline-block',
+                }}
+              >
+                <PreviewCompatibleImage imageInfo={item} />
+              </div>
             </div>
-          </div>
-          <p>{item.text}</p>
-        </section>
-      </div>
+            {item.text.split("|").map(i => (
+              <p class="has-text-justified">{i}</p>
+            ))}
+            
+          </section>
+        </div>
     ))}
   </div>
 )
