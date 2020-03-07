@@ -97,7 +97,7 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/partners/index.md"
         label: "Partners Page"
-        name: "partners-page"
+        name: "partnersPage"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partners-page"}
           - {label: Title, name: title, widget: string}
@@ -118,7 +118,7 @@ collections:
             }
       - file: "src/pages/programs/index.md"
         label: "Programs Page"
-        name: "programs-page"
+        name: "programsPage"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "programs-page"}
           - {label: Title, name: title, widget: string}
