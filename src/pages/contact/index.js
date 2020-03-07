@@ -122,15 +122,21 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
-                <div>
-                  <label className="label" htmlFor={'message'}>
-                    Contact Types
-                  </label>
+                <div className="field">
+                  
                   <div class="field">
+                    <label className="label">
+                      Contact Type
+                    </label>
                     <div class="control">
                       <div class="select">
-                        <select>
-                          <option disabled hidden selected>Select Option</option>
+                        <select
+                        className={"select"}
+                        onChange={this.handleChange}
+                        id={"select"}
+                        required={true}
+                        >
+                          <option></option>
                           <option>Students</option>
                           <option>Donators</option>
                           <option>Volunteers</option>
