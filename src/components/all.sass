@@ -14,7 +14,10 @@ body
   font-family: Roboto Condensed
 
 .navbar
-  padding-top: 1.5rem
+  padding-top: .5rem
+  padding-bottom: .5rem
+  border-bottom: 1px solid rgba(196, 196, 196, 0.6)
+  height: 65px
 
 .navbar .navbar-menu
   box-shadow: none !important
@@ -104,7 +107,7 @@ body
   padding: 0 1rem
 footer.footer
   padding: 1rem 0 0
-  background-color: transparent
+  background-color: $pi-green
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -143,6 +146,7 @@ $menu-label-color: $white-ter
     align-items: flex-start
 
 .column
+    display: flex
     width: 100%
     padding-left: 3rem
     padding-right: 3rem
@@ -179,10 +183,31 @@ $menu-label-color: $white-ter
   color: $black
   padding-left: 1.5rem
   padding-right: 1.5rem
-  font-weight: bold
   &:hover
     color: $pi-green !important
 
 
 .background-pi-green
   background-color: $pi-green
+
+.navbar-menu
+  margin-top: 5px
+  margin-bottom: 5px
+
+address a
+  color: $black
+
+#main-content
+  margin-top: 65px
+
+#donate-button
+  background-color: $pi-green
+
+#contact-us-title
+  font-weight: bold
+  font-size: 50px
+
+#contact-us-button
+  background-color: $pi-green
+  padding-left: 24px
+  padding-right: 24px

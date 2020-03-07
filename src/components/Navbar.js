@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../../static/img/smallLogo.png'
+import logo from '../img/header-icon.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -22,11 +22,11 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
+            navBarActiveClass: 'is-active',
+          })
           : this.setState({
-              navBarActiveClass: '',
-            })
+            navBarActiveClass: '',
+          })
       }
     )
   };
@@ -40,8 +40,8 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+            <Link to="/" className="" title="Logo">
+              <img src={logo} alt="Pi515" style={{ height: '100%', marginTop: '-3px'}} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -68,15 +68,15 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 BLOG
               </Link>
-              <div className="navbar-item has-dropdown is-hoverable">
-                <Link className="navbar-item navbar-link is-arrowless">
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-item is-arrowless">
                   GET INVOLVED
-                </Link>
-                <div className="navbar-dropdown">
-                  <Link className="navbar-item">
+                </a>
+                <div class="navbar-dropdown">
+                  <Link className="navbar-item" to="/partners">
                     PARTNERS
                   </Link>
-                  <Link className="navbar-item">
+                  <Link className="navbar-item" to="/programs">
                     PROGRAMS
                   </Link>
                   <Link className="navbar-item">
@@ -87,7 +87,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 CONTACT US
               </Link>
-              <Link className="navbar-item button is-primary" style={{marginTop:'5px'}} onClick={() => window.open('https://pursuit-of-innovation.square.site/','_blank')}>
+              <Link id="donate-button" className="navbar-item" onClick={() => window.open('https://pursuit-of-innovation.square.site/','_blank')}>
                 DONATE
               </Link>
             </div>
