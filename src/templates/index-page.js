@@ -132,7 +132,6 @@ export const IndexPageTemplate = ({
                   style={{marginTop: '80px'}} 
                   className="column buttons">
                     <Link 
-                      style={{marginRight:'200px'}} 
                       onClick={() => window.open('https://pursuit-of-innovation.square.site/','_blank')}
                       className="button is-primary is-large">DONATE
                     </Link>
