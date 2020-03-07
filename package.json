@@ -34,6 +34,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
+    "react-youtube": "^7.9.0",
     "redux": "^3.7.2",
     "typeface-roboto-condensed": "0.0.75",
     "typescript": "^3.8.3",

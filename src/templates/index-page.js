@@ -1,10 +1,17 @@
 import React from 'react'
+import YouTube from 'react-youtube'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+
+const opts = {
+	height: '480',
+	width: '',
+	playerVars: {autoplay: 1}
+};
 
 export const IndexPageTemplate = ({
   image,
@@ -77,6 +84,12 @@ export const IndexPageTemplate = ({
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
+									<YouTube
+									  className="column is-12"
+									  videoId="_CFDuLiHXuc"
+										opts={opts}
+										onReady={(event) => event.target.pauseVideo()}
+									/>
                 </div>
                 <div className="columns">
                   <div className="column is-12">
