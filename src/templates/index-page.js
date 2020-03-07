@@ -137,7 +137,7 @@ export const IndexPageTemplate = ({
                       className="button is-primary is-large">DONATE
                     </Link>
                     <Link 
-                      onClick={() => window.open('','_blank')}
+                      to="/contact"
                       className="button is-primary is-large is-light">VOLUNTEER
                   </Link>
                   </div>
