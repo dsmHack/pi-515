@@ -43,7 +43,7 @@ export default class Index extends React.Component {
               <h3>Pursuit of Innovation</h3>
               <div>Phone number: <a href={'tel:' + constants.phoneNumber}>{constants.phoneNumber}</a></div>
               <div>Email: <a href={'mailto:' + constants.email}>{constants.email}</a></div>
-              <div>Address: <a href={'geo:' + constants.address}>4300 Beaver Avenue Des Moines, IA 50310</a></div>
+              <div>Address: <a href={'geo:' + constants.address}>{constants.address}</a></div>
               <div>Hours: 9am - 5pm</div>
               <div>
                 <div><a href={constants.facebook}>Facebook</a></div>
