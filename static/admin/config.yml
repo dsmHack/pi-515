@@ -93,6 +93,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/partners/index.md"
         label: "Partners Page"
@@ -107,7 +108,7 @@ collections:
               fields: [
                 {label: Heading, name: heading, widget: string},
                 {label: Description, name: description, widget: text},
-                {label: Blurbs, name: blurbs, widget: list,
+                {label: Partners, name: partnersList, widget: list,
                   fields: [
                     {label: Image, name: image, widget: image},
                     {label: Text, name: text, widget: text}
@@ -128,7 +129,7 @@ collections:
               fields: [
                 {label: Heading, name: heading, widget: string},
                 {label: Description, name: description, widget: text},
-                {label: Blurbs, name: blurbs, widget: list,
+                {label: Programs, name: programsList, widget: list,
                   fields: [
                     {label: Image, name: image, widget: image},
                     {label: Text, name: text, widget: text}

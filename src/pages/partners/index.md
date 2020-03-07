@@ -7,11 +7,11 @@ heading: PI515 Partners
 description: >-
   Description
 intro:
-  blurbs:
+  partnersList:
     - image: /img/coffee.png
-      text: >
-        Blurb text
+      text: >-
+        Partner text
   heading: Partners
-  description: >
+  description: >-
     Stuff
 ---

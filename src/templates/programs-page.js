@@ -44,7 +44,7 @@ export const ProgramsPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
+              <Features gridItems={intro.programsList} />
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ ProgramsPageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+    programsList: PropTypes.array,
   }),
 }
 
@@ -104,7 +104,7 @@ export const programsPageQuery = graphql`
         heading
         description
         intro {
-          blurbs {
+          programsList {
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {

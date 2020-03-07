@@ -11,7 +11,6 @@ export const PartnersPageTemplate = ({
   heading,
   description,
   intro,
-  main,
 }) => (
   <div className="content">
     <div
@@ -45,7 +44,7 @@ export const PartnersPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
+              <Features gridItems={intro.partnersList} />
             </div>
           </div>
         </div>
@@ -60,7 +59,7 @@ PartnersPageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+    partnersList: PropTypes.array,
   }),
 }
 
@@ -105,7 +104,7 @@ export const partnersPageQuery = graphql`
         heading
         description
         intro {
-          blurbs {
+          partnersList {
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {

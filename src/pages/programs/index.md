@@ -7,11 +7,11 @@ heading: PI515 Programs
 description: >-
   Description
 intro:
-  blurbs:
+  programsList:
     - image: /img/coffee.png
-      text: >
-        Blurb text
+      text: >-
+        Program text
   heading: Programs
-  description: >
+  description: >-
     Stuff
 ---
