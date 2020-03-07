@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import constants from '../../../constants'
 
 function encode(data) {
   return Object.keys(data)
@@ -9,12 +10,6 @@ function encode(data) {
 }
 
 export default class Index extends React.Component {
-  facebook = 'https://www.facebook.com/Pi515/';
-  twitter = 'https://twitter.com/LOVEPI515';
-  phoneNumber = '515-344-4326';
-  address = '4300 Beaver Avenue Des Moines, IA 50310';
-  email = 'tech@pi515.org';
-
   constructor(props) {
     super(props);
     this.state = { isValidated: false }
@@ -46,13 +41,13 @@ export default class Index extends React.Component {
           <div className="container columns is-mobile">
             <address className="content column">
               <h3>Pursuit of Innovation</h3>
-              <div>Phone number: <a href={'tel:' + this.phoneNumber}>{this.phoneNumber}</a></div>
-              <div>Email: <a href={'mailto:' + this.email}>{this.email}</a></div>
-              <div>Address: <a href={'geo:' + this.address}>4300 Beaver Avenue Des Moines, IA 50310</a></div>
+              <div>Phone number: <a href={'tel:' + constants.phoneNumber}>{constants.phoneNumber}</a></div>
+              <div>Email: <a href={'mailto:' + constants.email}>{constants.email}</a></div>
+              <div>Address: <a href={'geo:' + constants.address}>{constants.address}</a></div>
               <div>Hours: 9am - 5pm</div>
               <div>
-                <div><a href={this.facebook}>Facebook</a></div>
-                <div><a href={this.twitter}>Twitter</a></div>
+                <div><a href={constants.facebook}>Facebook</a></div>
+                <div><a href={constants.twitter}>Twitter</a></div>
               </div>
               <iframe
                 title="map"
