@@ -2,7 +2,7 @@
 templateKey: 'programs-page'
 path: /programs
 title: Programs
-image: /img/jumbotron.jpg
+image: /img/jumbotron.png
 heading: PI515 Programs
 description: >-
   PI515 has a variety of programs to offer Iowa's youth of all ages!
