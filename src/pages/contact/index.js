@@ -1,6 +1,9 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import constants from '../../../constants'
+import logo from "../../img/pi-logo-WithTagline-VariationA.png";
+import {Link} from "gatsby";
 
 function encode(data) {
   return Object.keys(data)
@@ -9,12 +12,6 @@ function encode(data) {
 }
 
 export default class Index extends React.Component {
-  facebook = 'https://www.facebook.com/Pi515/';
-  twitter = 'https://twitter.com/LOVEPI515';
-  phoneNumber = '515-344-4326';
-  address = '4300 Beaver Avenue Des Moines, IA 50310';
-  email = 'tech@pi515.org';
-
   constructor(props) {
     super(props);
     this.state = { isValidated: false }
@@ -42,26 +39,22 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <section className="section">
-          <div className="container columns is-mobile">
-            <address className="content column">
-              <h3>Pursuit of Innovation</h3>
-              <div>Phone number: <a href={'tel:' + this.phoneNumber}>{this.phoneNumber}</a></div>
-              <div>Email: <a href={'mailto:' + this.email}>{this.email}</a></div>
-              <div>Address: <a href={'geo:' + this.address}>4300 Beaver Avenue Des Moines, IA 50310</a></div>
-              <div>Hours: 9am - 5pm</div>
-              <div>
-                <div><a href={this.facebook}>Facebook</a></div>
-                <div><a href={this.twitter}>Twitter</a></div>
-              </div>
+        <section className="section" style={{'textAlign': 'center', 'padding-left': '15%', 'padding-right': '15%'}}>
+          <img src={logo} style={{'width': '50%'}} alt="Pi515"/>
+          <h1 id="contact-us-title" style={{'paddingTop': '40px', 'paddingBottom': '80px'}}>CONTACT US</h1>
+          <div className="columns" style={{'width': '70vw'}}>
+            <address className="column" style={{'textAlign': 'left'}}>
+              <div><strong>Phone number: </strong><a href={'tel:' + constants.phoneNumber}>{constants.phoneNumber}</a></div>
+              <div><strong>Email: </strong><a href={'mailto:' + constants.email}>{constants.email}</a></div>
+              <div><strong>Address: </strong><a href={'geo:' + constants.address}>{constants.address}</a></div>
+              <div><strong>Hours: </strong>9am - 5pm</div>
               <iframe
                 title="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.7812477219422!2d-93.68107734840824!3d41.638859579140046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee9c14426aaaab%3A0x20398f4414d00158!2sPursuit%20of%20Innovation!5e0!3m2!1sen!2sus!4v1583522683319!5m2!1sen!2sus"
-                width="100%" height="450" frameBorder="0" style={{'border': '0px'}}
+                width="100%" height="390" frameBorder="0" style={{'border': '0px','paddingTop': '20px'}}
                 allowFullScreen=""></iframe>
             </address>
-            <div className="content column">
-              <h1>Contact Us</h1>
+            <div className="content column" style={{'textAlign': 'left'}}>
               <form
                 name="contact"
                 method="post"
@@ -145,7 +138,7 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field" style={{marginTop:'15px'}}>
-                  <button className="button is-link" type=" submit">
+                  <button id="contact-us-button" className="button" type="submit">
                     Send
                   </button>
                 </div>
