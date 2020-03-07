@@ -47,7 +47,6 @@ export default class Index extends React.Component {
               <div><strong>Phone number: </strong><a href={'tel:' + constants.phoneNumber}>{constants.phoneNumber}</a></div>
               <div><strong>Email: </strong><a href={'mailto:' + constants.email}>{constants.email}</a></div>
               <div><strong>Address: </strong><a href={'geo:' + constants.address}>{constants.address}</a></div>
-              <div><strong>Hours: </strong>9am - 5pm</div>
               <iframe
                 title="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.7812477219422!2d-93.68107734840824!3d41.638859579140046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee9c14426aaaab%3A0x20398f4414d00158!2sPursuit%20of%20Innovation!5e0!3m2!1sen!2sus!4v1583522683319!5m2!1sen!2sus"
