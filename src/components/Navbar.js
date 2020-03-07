@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
 import logo from '../../static/img/smallLogo.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       active: false,
       navBarActiveClass: '',
@@ -30,7 +29,7 @@ const Navbar = class extends React.Component {
             })
       }
     )
-  }
+  };
 
   render() {
     return (
@@ -64,39 +63,39 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-end has-text-centered is">
               <Link className="navbar-item" to="/about">
-                About
+                ABOUT
               </Link>
               <Link className="navbar-item" to="/blog">
-                Blog
+                BLOG
               </Link>
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">
-                  Get Involved
-                </a>
-                <div class="navbar-dropdown">
-                  <a class="navbar-item">
-                    Partners
-                  </a>
-                  <a class="navbar-item">
-                    Programs
-                  </a>
-                  <a class="navbar-item">
-                    Volunteer
-                  </a>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <Link className="navbar-item navbar-link is-arrowless">
+                  GET INVOLVED
+                </Link>
+                <div className="navbar-dropdown">
+                  <Link className="navbar-item">
+                    PARTNERS
+                  </Link>
+                  <Link className="navbar-item">
+                    PROGRAMS
+                  </Link>
+                  <Link className="navbar-item">
+                    VOLUNTEERS
+                  </Link>
                 </div>
               </div>
               <Link className="navbar-item" to="/contact">
-                Contact Us
+                CONTACT US
               </Link>
-              <a src='' style={{marginTop:'5px'}} class="button is-primary">
-                <strong>DONATE</strong>
-              </a>
+              <Link className="navbar-item background-pi-green" onClick={() => window.open('https://pursuit-of-innovation.square.site/','_blank')}>
+                DONATE
+              </Link>
             </div>
           </div>
         </div>
       </nav>
     )
   }
-}
+};
 
 export default Navbar
