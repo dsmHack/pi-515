@@ -44,7 +44,7 @@ export const ProgramsPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
+              <Features gridItems={intro.programsList} />
             </div>
           </div>
         </div>
