@@ -26,7 +26,7 @@ export const PartnersPageTemplate = ({
         style={{
           boxShadow: '0.5rem 0 0 #39DC7878, -0.5rem 0 0 #39DC7878',
           backgroundColor: '#39DC7878',
-          color: 'white',
+          color: 'black',
           padding: '1rem',
         }}
       >
