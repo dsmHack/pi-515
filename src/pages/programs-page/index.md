@@ -8,10 +8,10 @@ description: >-
   Description
 intro:
   programs:
-    - image: /img/coffee.png
-      text: >
-        Blurb text
+    - programImage: /img/coffee.png
+      programText: >-
+        Program text
   heading: Programs
-  description: >
+  description: >-
     Stuff
 ---

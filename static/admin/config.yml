@@ -110,8 +110,8 @@ collections:
                 {label: Description, name: description, widget: text},
                 {label: Partners, name: partners, widget: list,
                   fields: [
-                    {label: Image, name: image, widget: image},
-                    {label: Text, name: text, widget: text}
+                    {label: Image, name: partnerImage, widget: image},
+                    {label: Text, name: partnerText, widget: text}
                   ]
                 }
               ]
@@ -131,8 +131,8 @@ collections:
                 {label: Description, name: description, widget: text},
                 {label: Programs, name: programs, widget: list,
                   fields: [
-                    {label: Image, name: image, widget: image},
-                    {label: Text, name: text, widget: text}
+                    {label: Image, name: partnerImage, widget: image},
+                    {label: Text, name: partnerText, widget: text}
                   ]
                 }
               ]

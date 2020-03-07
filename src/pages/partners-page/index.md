@@ -8,10 +8,10 @@ description: >-
   Description
 intro:
   partners:
-    - image: /img/coffee.png
-      text: >
-        Blurb text
+    - partnerImage: /img/coffee.png
+      partnerText: >-
+        Partner text
   heading: Partners
-  description: >
+  description: >-
     Stuff
 ---
