@@ -59,7 +59,7 @@ PartnersPageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+    partnersList: PropTypes.array,
   }),
 }
 
@@ -105,14 +105,14 @@ export const partnersPageQuery = graphql`
         description
         intro {
           partnersList {
-            partnerImage {
+            image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-            partnerText
+            text
           }
           heading
           description

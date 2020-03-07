@@ -59,7 +59,7 @@ ProgramsPageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+    programsList: PropTypes.array,
   }),
 }
 
@@ -105,14 +105,14 @@ export const programsPageQuery = graphql`
         description
         intro {
           programsList {
-            programImage {
+            image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-            programText
+            text
           }
           heading
           description
