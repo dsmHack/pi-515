@@ -7,7 +7,7 @@ heading: PI515 Partners
 description: >-
   Description
 intro:
-  blurbs:
+  partners:
     - image: /img/coffee.png
       text: >
         Blurb text

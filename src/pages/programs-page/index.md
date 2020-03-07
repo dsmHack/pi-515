@@ -7,7 +7,7 @@ heading: PI515 Programs
 description: >-
   Description
 intro:
-  blurbs:
+  programs:
     - image: /img/coffee.png
       text: >
         Blurb text
