@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ProgramPageTemplate } from '../../templates/programs-page'
+import { ProgramsPageTemplate } from '../../templates/programs-page'
 
-const ProgramPagePreview = ({ entry, getAsset }) => {
+const ProgramsPagePreview = ({ entry, getAsset }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
@@ -13,7 +13,7 @@ const ProgramPagePreview = ({ entry, getAsset }) => {
   const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
 
   return (
-    <ProgramPageTemplate
+    <ProgramsPageTemplate
       image={getAsset(entry.getIn(['data', 'image']))}
       title={entry.getIn(['data', 'title'])}
       heading={entry.getIn(['data', 'heading'])}
@@ -46,11 +46,11 @@ const ProgramPagePreview = ({ entry, getAsset }) => {
   )
 }
 
-ProgramPagePreview.propTypes = {
+ProgramsPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 }
 
-export default ProgramPagePreview
+export default ProgramsPagePreview
