@@ -1,6 +1,5 @@
 [build]
   functions = "./.netlify/functions"
-  publish = "./dist"
 
 [build.environment]
   YARN_VERSION = "1.9.4"
