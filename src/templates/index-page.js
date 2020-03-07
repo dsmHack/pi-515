@@ -48,8 +48,8 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              '#39DC78 0.5rem 0px 0px, #39DC78 -0.5rem 0px 0px',
-            backgroundColor: '#39DC78',
+              '#39DC7878 0.5rem 0px 0px, #39DC7878 -0.5rem 0px 0px',
+            backgroundColor: '#39DC7878',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -61,8 +61,8 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
-              '#39DC78 0.5rem 0px 0px, #39DC78 -0.5rem 0px 0px',
-            backgroundColor: '#39DC78',
+              '#39DC7878 0.5rem 0px 0px, #39DC7878 -0.5rem 0px 0px',
+            backgroundColor: '#39DC7878',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -79,26 +79,26 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">
+                  <div className="columns">
+                    <div className="column is-12">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        {heading}
+                      </h3>
+                      <p>{description}</p>
+                    </div>
+                  </div>
+                  {/* <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
+                  </div> */}
 									<YouTube
 									  className="column is-12"
 									  videoId="_CFDuLiHXuc"
 										opts={opts}
 										onReady={(event) => event.target.mute()}
 									/>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="column is-12">
