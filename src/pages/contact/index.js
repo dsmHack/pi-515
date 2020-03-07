@@ -15,8 +15,6 @@ export default class Index extends React.Component {
   address = '4300 Beaver Avenue Des Moines, IA 50310';
   email = 'tech@pi515.org';
 
-
-
   constructor(props) {
     super(props);
     this.state = { isValidated: false }
@@ -45,7 +43,7 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <section className="section">
-          <div className="container horizontalColumns">
+          <div className="container columns is-mobile">
             <address className="content column">
               <h3>Pursuit of Innovation</h3>
               <div>Phone number: <a href={'tel:' + this.phoneNumber}>{this.phoneNumber}</a></div>
@@ -59,11 +57,11 @@ export default class Index extends React.Component {
               <iframe
                 title="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.7812477219422!2d-93.68107734840824!3d41.638859579140046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee9c14426aaaab%3A0x20398f4414d00158!2sPursuit%20of%20Innovation!5e0!3m2!1sen!2sus!4v1583522683319!5m2!1sen!2sus"
-                width="600" height="450" frameBorder="0" style={{'border': '0px'}}
+                width="100%" height="450" frameBorder="0" style={{'border': '0px'}}
                 allowFullScreen=""></iframe>
             </address>
             <div className="content column">
-              <h1>Contact</h1>
+              <h1>Contact Us</h1>
               <form
                 name="contact"
                 method="post"
