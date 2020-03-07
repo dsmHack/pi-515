@@ -5,9 +5,9 @@ import {faFacebookF, faTwitter, faInstagram, faLinkedin, faYoutube} from '@forta
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-black-ter">
-        <div className="content has-text-centered has-background-black has-text-black-ter">
-          <div className="container has-background-black has-text-black-ter footer-content">
+      <footer className="footer has-text-black-ter">
+        <div className="content has-text-centered has-text-black-ter">
+          <div className="container has-text-black-ter footer-content">
               <div className="is-4 social">
                 <a title="facebook" href="https://www.facebook.com/Pi515/">
                   <FontAwesomeIcon icon={faFacebookF} color="black" size="lg"/>
@@ -25,7 +25,7 @@ const Footer = class extends React.Component {
                   <FontAwesomeIcon icon={faInstagram} color="black"size="lg"/>
                 </a>
               </div>
-              Copyright 2020 PI515, a 501(c)(3) nonprofit organization
+              © Copyright 2020 PI515, a 501(c)(3) nonprofit organization
           </div>
         </div>
       </footer>
