@@ -104,15 +104,15 @@ export const programsPageQuery = graphql`
         heading
         description
         intro {
-          blurbs {
-            image {
+          programs {
+            programImage {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-            text
+            programText
           }
           heading
           description

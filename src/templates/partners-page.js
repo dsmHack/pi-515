@@ -105,15 +105,15 @@ export const partnersPageQuery = graphql`
         heading
         description
         intro {
-          blurbs {
-            image {
+          partners {
+            partnerImage {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-            text
+            partnerText
           }
           heading
           description
