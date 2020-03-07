@@ -15,6 +15,7 @@ const opts = {
 
 export const IndexPageTemplate = ({
   image,
+  footerImage,
   title,
   heading,
   subheading,
@@ -118,6 +119,36 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
+                <div 
+                  className="column has-text-centered"
+                  style={{
+                    backgroundImage: `url(${
+                      !!footerImage.childImageSharp ? footerImage.childImageSharp.fluid.src : footerImage
+                    })`,
+                    backgroundSize: 'cover'
+                  }}
+                  
+                >
+                  <h2 
+                  className="has-text-weight-semibold is-size-2 is-white"
+                  style={{color: 'white',}}>
+                    Change A Life Today!
+                  </h2>
+                  <h3 style={{color: 'white',}}>Help us empower youth. Get in touch today and start making a difference.</h3>
+                  <div 
+                  style={{marginTop: '80px'}} 
+                  className="column buttons">
+                    <Link 
+                      style={{marginRight:'200px'}} 
+                      onClick={() => window.open('https://pursuit-of-innovation.square.site/','_blank')}
+                      className="button is-primary is-large">DONATE
+                    </Link>
+                    <Link 
+                      onClick={() => window.open('','_blank')}
+                      className="button is-primary is-large is-light">VOLUNTEER
+                  </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -129,6 +160,7 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  footerImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -146,6 +178,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
+        footerImage={frontmatter.footerImage}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
@@ -173,6 +206,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        footerImage {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
