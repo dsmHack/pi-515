@@ -95,7 +95,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/partners/index.md"
+      - file: "src/pages/partners-page/index.md"
         label: "Partners Page"
         name: "partnersPage"
         fields:
@@ -116,7 +116,7 @@ collections:
                 }
               ]
             }
-      - file: "src/pages/programs/index.md"
+      - file: "src/pages/programs-page/index.md"
         label: "Programs Page"
         name: "programsPage"
         fields:
