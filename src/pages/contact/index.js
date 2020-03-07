@@ -79,8 +79,30 @@ export default class Index extends React.Component {
                   </label>
                 </div>
                 <div className="field">
+                  <div class="field">
+                    <label className="label">
+                      I am a:
+                    </label>
+                    <div class="control">
+                      <div class="select">
+                        <select
+                        className={"select"}
+                        onChange={this.handleChange}
+                        id={"select"}
+                        required={true}
+                        >
+                          <option></option>
+                          <option>Student</option>
+                          <option>Donator</option>
+                          <option>Volunteer</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="field">
                   <label className="label" htmlFor={'name'}>
-                    Your name
+                    My Name is:
                   </label>
                   <div className="control">
                     <input
@@ -95,7 +117,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'email'}>
-                    Email
+                    My Email is:
                   </label>
                   <div className="control">
                     <input
@@ -110,7 +132,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                    Message
+                    How can we help you?
                   </label>
                   <div className="control">
                     <textarea
@@ -120,29 +142,6 @@ export default class Index extends React.Component {
                       id={'message'}
                       required={true}
                     />
-                  </div>
-                </div>
-                <div className="field">
-                  
-                  <div class="field">
-                    <label className="label">
-                      Contact Type
-                    </label>
-                    <div class="control">
-                      <div class="select">
-                        <select
-                        className={"select"}
-                        onChange={this.handleChange}
-                        id={"select"}
-                        required={true}
-                        >
-                          <option></option>
-                          <option>Students</option>
-                          <option>Donators</option>
-                          <option>Volunteers</option>
-                        </select>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div className="field" style={{marginTop:'15px'}}>
