@@ -88,7 +88,6 @@ export const IndexPageTemplate = ({
 									  className="column is-12"
 									  videoId="_CFDuLiHXuc"
 										opts={opts}
-										onReady={(event) => event.target.pauseVideo()}
 									/>
                 </div>
                 <div className="columns">
