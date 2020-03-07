@@ -7,7 +7,7 @@ heading: PI515 Programs
 description: >-
   Description
 intro:
-  programs:
+  programsList:
     - programImage: /img/coffee.png
       programText: >-
         Program text

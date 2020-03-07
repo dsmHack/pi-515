@@ -7,7 +7,7 @@ heading: PI515 Partners
 description: >-
   Description
 intro:
-  partners:
+  partnersList:
     - partnerImage: /img/coffee.png
       partnerText: >-
         Partner text
