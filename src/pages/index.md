@@ -55,5 +55,5 @@ contact:
     email: thisemail@something.com
     phone: 111-111-1111
     address: Middle Of NoWhere
-    subImage: /img/home-jumbotron.jpg
+    subImage: /img/home-jumbotron.png
 ---
