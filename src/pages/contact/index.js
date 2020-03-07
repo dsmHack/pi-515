@@ -85,7 +85,7 @@ export default class Index extends React.Component {
                         >
                           <option></option>
                           <option>Student</option>
-                          <option>Donator</option>
+                          <option>Donor</option>
                           <option>Volunteer</option>
                         </select>
                       </div>
