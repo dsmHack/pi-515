@@ -2,6 +2,7 @@
 templateKey: index-page
 title: Building diversity in STEM
 image: /img/home-jumbotron.jpg
+footerImage: /img/frontPageFooter.png
 heading: Building diversity in STEM
 subheading: Education and opportunities for underserved youth
 mainpitch:
