@@ -2,7 +2,7 @@
 templateKey: 'partners-page'
 path: /partners
 title: Partners
-image: /img/thank_you.png
+image: /img/hero.png
 intro:
   partnersList:
     - image: /img/atlantic_bottling.png

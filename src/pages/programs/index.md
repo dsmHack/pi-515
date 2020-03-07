@@ -2,7 +2,11 @@
 templateKey: 'programs-page'
 path: /programs
 title: Programs
+<<<<<<< HEAD
 image: /img/programs-jumbo.jpg
+=======
+image: /img/hero.png
+>>>>>>> fix hero images and front page icons
 heading: PI515 Programs
 description: >-
   PI515 has a variety of programs to offer Iowa's youth of all ages!

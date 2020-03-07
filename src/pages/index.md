@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Building diversity in STEM
-image: /img/jumbotron.png
+image: /img/hero.png
 footerImage: /img/jumbotron.png
 heading: Building diversity in STEM
 subheading: Education and opportunities for underserved youth
@@ -13,16 +13,16 @@ description: >-
   Giving opportunities that inspire young people to explore, discover, and create. By using the talent that we see in underrepresented students, we are able to make a real impact in their lives and watch as they go on to shape their communities. By starting at the source, we can organically grow a culture of ambition and success. The triumphs of our students go on to be reflected in making the technology world more diverse and bringing the voices that are so often unheard to the forefront.
 intro:
   blurbs:
-    - image: /img/community.png
+    - image: /img/prepare.png
       text: >
         Pi515 successfully creates a safe space where students from a wide array of backgrounds, socio-economic and social statuses, and nationalities come together to learn from our program and each other. Individually, they learn to build skills and self-confidence. Together, they learn to build community – and the community is part of what keeps them invested in being part of the program. We provide the program at no cost to their families and give them a laptop when they graduate.
-    - image: /img/gear.png
+    - image: /img/share.png
       text: >
-        We are closing the digital gap by providing students who attend our classes with tech equipment. We provide equipment directly where it is needed at the time to make the most impact. We know that kids can't succeed without access to technology.
-    - image: /img/tutorials.png
+        We provide equipment directly where it is needed at the time that it makes the most impact. Professionals in tech come in to teach the high school level who in turn give back immediately by mentoring their younger peers. With small classes, we give the one-on-one attention that these students need. We hire high school students to give them their first opportunity in industry, allowing them to get their foot in the door and build a strong resume as soon as possible.
+    - image: /img/inspire.png
       text: >
-        By providing a base, we empower students to forge their own path and succeed on their own terms. We believe that when youth have the power to control their own education, they are able to design a happy future for themselves, and when we have happy and successful individuals, we foster a strong and vibrant community. Our students inspire those around them with their stories, their heart, and their expertise.
-    - image: /img/diversity.png
+        Without programs like this, we lack the first step to get underserved individuals started in technology. By providing a base, we empower students to forge their own path and succeed on their own terms. We believe that when youth have the power to control their own education, they are able to design a happy future for themselves, and when we have happy and successful individuals, we foster a strong and vibrant community. Our students inspire those around them with their stories, their heart, and their expertise.
+    - image: /img/innovation.png
       text: >
         Pi515 is taking on the inequity in STEM-related careers by directly addressing the pipeline. Each year, we embrace 100 students, particularly girls, from diverse backgrounds. We introduce them to teachers and companies with employees who are in STEM, providing role models that inspire them. Over 80% of our students are the first in their families to finish high school and go on to college.
   heading: What we offer
