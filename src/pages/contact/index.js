@@ -1,7 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
-import constants from './constants'
+import constants from '../../../constants'
 
 function encode(data) {
   return Object.keys(data)

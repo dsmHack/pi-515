@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../../components/Layout'
-import constants from './constants'
+import constants from '../../../constants'
 
 export default () => (
   <Layout>
