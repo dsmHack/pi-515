@@ -10,7 +10,7 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/blog_background.png')`,
+            backgroundImage: `url('/img/hero.png')`,
           }}
         >
           <h1
@@ -18,7 +18,7 @@ export default class BlogIndexPage extends React.Component {
             style={{
               boxShadow: '0.5rem 0 0 #39DC7878, -0.5rem 0 0 #39DC7878',
               backgroundColor: '#39DC7878',
-              color: 'white',
+              color: 'black',
               padding: '1rem',
             }}
           >
