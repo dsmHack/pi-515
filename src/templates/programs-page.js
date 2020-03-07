@@ -104,7 +104,7 @@ export const programsPageQuery = graphql`
         heading
         description
         intro {
-          programs {
+          programsList {
             programImage {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {

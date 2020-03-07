@@ -105,7 +105,7 @@ export const partnersPageQuery = graphql`
         heading
         description
         intro {
-          partners {
+          partnersList {
             partnerImage {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
