@@ -3,7 +3,6 @@ import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
 import constants from '../../../constants'
 import logo from "../../img/pi-logo-WithTagline-VariationA.png";
-import {Link} from "gatsby";
 
 function encode(data) {
   return Object.keys(data)
@@ -79,7 +78,7 @@ export default class Index extends React.Component {
                       <div class="select">
                         <select
                         className={"select"}
-                        onChange={this.handleChange}
+                        onBlur={this.handleChange}
                         id={"select"}
                         required={true}
                         >

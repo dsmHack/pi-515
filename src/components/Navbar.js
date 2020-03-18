@@ -69,7 +69,7 @@ const Navbar = class extends React.Component {
                 BLOG
               </Link>
               <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-item is-arrowless">
+                <a class="navbar-item is-arrowless"> 
                   GET INVOLVED
                 </a>
                 <div class="navbar-dropdown">
