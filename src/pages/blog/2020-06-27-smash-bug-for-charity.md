@@ -19,7 +19,7 @@ tags:
 
 #### What is the PI515 Code Jam?
 
-The idea is simple: write code and pledge to donate based on your progress. You can improve existing technologies or explore and build new ones all while supporting a great organization! Think of someone donating $5 for every mile they run. But instead we're fixing bugs, writing documentation or doing other productive IT work. Finally a chance to catch up on some of that code *"you meant to write"*! Or maybe, a chance to work on that personal project you've been neglecting.
+The idea is simple: write code and pledge to donate based on your progress. You can improve existing technologies or explore and build new ones all while supporting a great organization! Think of someone donating $5 for every mile they run. But instead we're fixing bugs, writing documentation or doing other productive IT work. Finally, a chance to catch up on some of that code *"you meant to write"*! Or maybe, a chance to work on that personal project you've been neglecting.
 
 <br>
 
