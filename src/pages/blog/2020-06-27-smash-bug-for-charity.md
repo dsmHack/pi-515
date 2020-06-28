@@ -17,7 +17,7 @@ tags:
 ---
 <br>
 
-![PI Students learning in a high school class](/img/high-school.jpg "PI Students in a high school class")
+<img style="height: 25rem;" src="/img/high-school.jpg" title="PI Students in a high school class" alt="PI Students learning in a high school class">
 
 <br>
 
