@@ -47,4 +47,10 @@ To participate you simply need to:
 3. Stay tuned for more details as the event gets closer.
 4. Participate in the Code Jam on August 7th at 5pm CST!
 
+<br>
+
 If you are interested in getting yourself or your organization involved in the PI515 Code Jam or would like more information please send an email to [tech@pi515.org](mailto:tech@pi515.org)!
+
+<br>
+
+If this date doesn't work for you or your organization we encourage individuals to host their own micro event on a time that works better and share their experience!
