@@ -19,7 +19,7 @@ tags:
 
 <img style="height: 25rem;" src="/img/high-school.jpg" title="PI Students in a high school class" alt="PI Students learning in a high school class">
 
-<br>
+<br><br>
 
 #### What is the PI515 Code Jam?
 
