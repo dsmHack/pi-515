@@ -3,7 +3,7 @@ templateKey: blog-post
 title: PI515 Code Jam Fundraiser
 date: 2020-06-27T18:53:37.568Z
 description: PI515 is hosting a new kind of code jam! The event will take place
-  virtually on September 15th at 5pm CST.
+  virtually on September 18th at 5pm CST.
 featuredpost: true
 featuredimage: /img/middle-school.jpg
 tags:
