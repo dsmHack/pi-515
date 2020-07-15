@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Smash Bug for Charity!
+title: PI515 Code Jam Fundraiser
 date: 2020-06-27T18:53:37.568Z
 description: PI515 is hosting a new kind of code jam! The event will take place
   virtually on August 7th at 5pm CST.
