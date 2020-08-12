@@ -87,9 +87,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 CONTACT US
               </Link>
-              <Link id="donate-button" className="navbar-item" onClick={() => window.open('https://pursuit-of-innovation.square.site/','_blank')}>
+              <a id="donate-button" className="navbar-item" onClick={() => window.open('https://pursuit-of-innovation.square.site/','_blank')}>
                 DONATE
-              </Link>
+              </a>
             </div>
           </div>
         </div>
