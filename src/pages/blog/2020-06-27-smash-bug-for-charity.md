@@ -32,7 +32,7 @@ Any individual or organization is welcome to participate. Individuals with littl
 To participate you simply need to: 
 
 1. Choose a pledge goal that works for you or your organization.
-2. Commit to participating by sending an email to  [tech@pi515.org](mailto:tech@pi515.org).
+2. Commit to participating by grabbing a ticket here: [https://www.eventbrite.​com/e/pi515-code-jam-tickets-​117595925579](https://www.eventbrite.com/e/pi515-code-jam-tickets-117595925579)
 3. Stay tuned for more details as the event gets closer.
 4. Participate in the Code Jam on September 18th at 5pm CST!
 
