@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Girls Entrepreneurship Summit
-date: 2021-02-24T18:04:06.982Z
+date: 2021-02-23T18:04:06.982Z
 description: "Learn how to start your business and earn some MONEY! "
 featuredpost: true
 featuredimage: /img/community.png
